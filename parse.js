@@ -36,4 +36,4 @@ function parse (original) {
   return { meta, content, original };
 }
 
-module.export = { parse };
+module.exports = { parse };
