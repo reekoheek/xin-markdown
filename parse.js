@@ -1,7 +1,5 @@
-import marked from 'marked';
-import Prism from 'prismjs';
-
-import 'prismjs/themes/prism.css';
+const marked = require('marked');
+const Prism = require('prismjs');
 
 marked.setOptions({
   gfm: true,
@@ -38,4 +36,4 @@ function parse (original) {
   return { meta, content, original };
 }
 
-export { parse };
+module.export = { parse };

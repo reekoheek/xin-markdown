@@ -1,6 +1,8 @@
 import { define, Component } from '@xinix/xin';
 import { parse } from './parse';
 
+import 'prismjs/themes/prism.css';
+
 export class MarkdownPane extends Component {
   get props () {
     return Object.assign({}, super.props, {
