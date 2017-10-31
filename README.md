@@ -6,6 +6,10 @@ Markdown components for xin.
 
 `xin-markdown` are components that render markdown directly.
 
+```sh
+npm i xin-markdown
+```
+
 ## Usage
 
 Supposedly we have markdown file `index.md`
