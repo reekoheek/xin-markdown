@@ -1,5 +1,5 @@
 import { define } from '@xinix/xin';
-import { View } from '@xinix/xin/views';
+import { View } from '@xinix/xin/components/view';
 
 export class MarkdownView extends View {
   get props () {
